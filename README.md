@@ -1,5 +1,47 @@
 # Getting Started with Create React App
 
+-createReact App
+- Configured Tailwind
+- Header
+- Routing App
+- Log In Form
+- Sign Up Form
+- Form Validation
+- useRef  Hook
+- Firebase Setup
+- Deploying Our App to production
+- Create Sign up User Account
+- Implement Sign in user Api
+- Create Redux
+- Implemented SignOut
+- Bug Fix: Sign up user Display ame and profile picture
+- Bug Fix: If the user is not login redirect to Login Page Vice versa
+- Unsubscribed to the onAuthStateChange callback
+- Add hardcoded values to the constant file
+- Registered TMDB Api & create an app & get access token 
+- Get data from TMDB now playing movies list API
+
+
+# Features
+-Login/Sign up
+   - Sign In /Sign Up Form
+   - Redirect to Browse Page
+
+- Browse (After Authentication)
+   - Header
+   - Main Movie
+        - Trailer in Background
+        - Title & Discription
+        - Movie Suggestion
+           - Movie List
+- NetflixGpt
+   - Search Bar
+   - Movie Suggestion
+   
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
