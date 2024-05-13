@@ -6,6 +6,7 @@ import { addUser, removeUser } from '../utils/uerSlice';
 import { useDispatch } from 'react-redux';
 import { LOGO, PHOTO_URL } from '../utils/Constants';
 import { useSelector } from 'react-redux';
+
 const Header = () => {
     const navigate = useNavigate()
     const dispatch = useDispatch()
@@ -42,13 +43,14 @@ const Header = () => {
     }, [])
 
     return (
-        <div className='absolute px-8 py-2 bg-gradiant-to-b from-black z-10 w-screen flex justify-between'>
+        <div className='absolute px-8 py-2 bg-gradiant-to-b z-10 w-screen flex justify-between'>
             <img className=' w-40' alt="Logo" src={LOGO} />
 
            { userData&& <div className="flex p-2">
                { <img className=' w-12 h-12' alt="Logo" src={userData?.photo_url} />}
-                <button onClick={handleSignout} className='font-bold'>(Sign Out)</button>
+                <button onClick={handleSignout} className='font-bold text-white'>Sign Out</button>
             </div>}
+            
         </div>
 
     )
